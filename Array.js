@@ -82,9 +82,9 @@ function main() {
   let arr = new Array();
 
   // -- #1 --
-  // arr.push(3);
+   arr.push(3);
 
-  // console.log(arr);
+   console.log(arr);
 
   // What is the length, capacity and memory address of your array?
   // Array { length: 1, _capacity: 3, ptr: 0 }
@@ -130,14 +130,14 @@ function main() {
   // -- #5 --
   // Empty the array and add just one item arr.push('tauhida');
 
-  console.log(arr.length);
-  for (let i = 0; i <= arr.length + 1; i++) {
-    console.log("pop running" + i);
-    arr.pop();
-  }
-  arr.push("tauhida");
-  console.log(arr);
-  console.log(arr.get(0));
-}
+//   console.log(arr.length);
+//   for (let i = 0; i <= arr.length + 1; i++) {
+//     console.log("pop running" + i);
+//     arr.pop();
+//   }
+//   arr.push("tauhida");
+//   console.log(arr);
+//   console.log(arr.get(0));
+ }
 
 main();
